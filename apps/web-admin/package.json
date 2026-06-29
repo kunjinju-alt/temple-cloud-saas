@@ -1,0 +1,25 @@
+{
+  "name": "@temple-cloud/web-admin",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@temple-cloud/db": "workspace:*",
+    "@temple-cloud/pdf": "workspace:*",
+    "@temple-cloud/shared": "workspace:*",
+    "@temple-cloud/ui": "workspace:*",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@temple-cloud/mobile",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start",
+    "build": "expo export",
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@temple-cloud/shared": "workspace:*",
+    "@temple-cloud/ui": "workspace:*",
+    "expo": "latest",
+    "expo-router": "latest",
+    "react": "latest",
+    "react-native": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@temple-cloud/worker",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@temple-cloud/db": "workspace:*",
+    "@temple-cloud/pdf": "workspace:*",
+    "@temple-cloud/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}

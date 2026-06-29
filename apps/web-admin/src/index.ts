@@ -1,0 +1,1 @@
+export const webAdminAppName = "Temple Cloud Admin";

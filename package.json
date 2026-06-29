@@ -1,0 +1,17 @@
+{
+  "name": "temple-cloud-saas",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "pnpm -r --filter './apps/*' --filter './packages/*' build",
+    "lint": "pnpm -r --filter './apps/*' --filter './packages/*' lint",
+    "typecheck": "pnpm -r --filter './apps/*' --filter './packages/*' typecheck"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "prettier": "latest",
+    "turbo": "latest",
+    "typescript": "latest"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
